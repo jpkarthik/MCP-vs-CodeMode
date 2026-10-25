@@ -1,0 +1,7 @@
+mcp>=1.0,<2.0
+python-dotenv>=1.0,<2.0
+groq>=0.31.1,<1.0
+mysql-connector-python>=9.0,<10.0
+sqlglot>=26.0,<31.0
+streamlit>=1.40,<2.0
+quickjs>=1.19.4,<2.0
