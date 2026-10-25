@@ -13,11 +13,10 @@ This local Code Mode demonstration uses model-written JavaScript, a QuickJS chil
 
 ## Set up MySQL and run (Windows PowerShell)
 
-Use a virtual environment so the demo's packages don't change dependencies used by other Python projects. From the screenshot, your Anaconda interpreter appears to be `D:\Anaconda\envs\AIML\python.exe`:
+Use a virtual environment so the demo's packages don't change dependencies used by other Python projects. Open PowerShell in the project folder and create the environment with Python:
 
 ```powershell
-cd D:\000_MCPvsCodeMode
-& "D:\Anaconda\envs\AIML\python.exe" -m venv .venv
+python -m venv .venv
 & ".\.venv\Scripts\python.exe" -m pip install -r requirements.txt
 ```
 
